@@ -166,10 +166,18 @@ header ul li:last-of-type a {
     max-width: 1168px;
     margin: auto;
     padding-bottom: 110px;
+
 }
 
 .op_items a {
     text-decoration: none;
+    align-items: center;
+    display: inline-block;
+}
+
+.op_items a img {
+    max-width: 117px;
+    margin: auto;
 }
 
 .op_item_text {
@@ -294,4 +302,30 @@ header ul li:last-of-type a {
 
 footer {
     background-color: #F7F7F7;
+}
+
+.owl-stage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.owl-dot {
+    transition: 0.4s;
+}
+
+.owl-dot span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #403E3B;
+    margin-right: 20px;
+    transition: 0.4s;
+}
+
+.owl-dot.active:hover {
+    transform: scale(1.3);
+
 }
