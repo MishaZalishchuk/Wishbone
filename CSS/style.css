@@ -184,7 +184,7 @@ header ul li:last-of-type a {
     display: inline-block;
 }
 
-.op_items a h4 {
+.op_items a p:first-child {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -192,9 +192,10 @@ header ul li:last-of-type a {
     line-height: 26px;
     text-align: center;
     color: #403E3B;
+    padding-top: 50px;
 }
 
-.op_items a p {
+.op_items a p:last-child {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -204,17 +205,10 @@ header ul li:last-of-type a {
     color: #645C55;
 }
 
-.op_items a:first-child p {
-    max-width: 294px;
+.op_items a {
+    max-width: 295px;
 }
 
-.op_items a:nth-child(2) p {
-    max-width: 292px;
-}
-
-.op_items a:last-child p {
-    max-width: 285px;
-}
 
 .pre_footer_banner {
     background-color: #CEC4BC;
