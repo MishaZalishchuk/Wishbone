@@ -321,5 +321,8 @@ footer {
 
 .owl-dot.active:hover {
     transform: scale(1.3);
+}
 
+.owl-dot.active span {
+    background: saddlebrown;
 }
