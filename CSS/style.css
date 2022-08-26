@@ -37,16 +37,13 @@ header nav li a {
 
 header ul li {
     margin-left: 32px;
-    transition: 0.7s;
+    transition: 0.4s;
 }
 
 header ul li:hover {
-    transform: rotate(360deg);
+    scale: 1.2;
 }
 
-header ul li a:focus {
-    background-color: green;
-}
 
 header ul li:hover a {
     color: red;
@@ -57,7 +54,7 @@ header ul li:last-of-type {
 }
 
 header ul li:nth-child(5) {
-    margin: 0px 31px 0px 0px;
+    margin: 0px 31px 0px 31px;
 }
 
 header ul li:last-of-type a {
