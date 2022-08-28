@@ -323,3 +323,34 @@ footer {
 .owl-dot.active span {
     background: rosybrown;
 }
+
+
+.ui-dialog .ui-dialog-content {
+    background-color: white;
+    padding: 30px 15px 15px 15px;
+    text-align: center;
+}
+
+.ui-widget.ui-widget-content {
+    border: none;
+}
+
+.ui-widget-header {
+    border: none;
+    background-color: #CEC4BC;
+    font-size: 25px;
+}
+
+.ui-widget {
+    font: inherit;
+}
+
+.ui-dialog .ui-dialog-content {
+    padding-top: 33px;
+    font-size: 20px;
+    box-sizing: border-box;
+    background-color: #F7F7F7;
+}
+
+
+

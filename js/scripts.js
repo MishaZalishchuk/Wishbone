@@ -3,19 +3,37 @@ $(document).ready(function(){
         $( "#dialog" ).dialog({
             autoOpen: false,
             show: {
-                effect: "blind",
-                duration: 1000
+                effect: "scale",
+                duration: 300
             },
             hide: {
-                effect: "explode",
-                duration: 1000
+                effect: "fade",
+                duration: 300
             }
+
+
+        });
+
+        $( "#dialog" ).dialog({
+            width : 500
+        });
+
+        $( "#dialog" ).dialog({
+            height: 200
+        });
+
+        $( "#dialog" ).dialog({
+            resizable: false
         });
 
         $( "#opener" ).on( "click", function() {
             $( "#dialog" ).dialog( "open" );
         });
+
     } );
+
+
+
 
     $('.owl-carousel').owlCarousel({
         loop:true,
